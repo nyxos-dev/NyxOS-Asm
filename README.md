@@ -11,14 +11,14 @@
   &nbsp;
   <img src="https://img.shields.io/badge/boots-yes-2ea44f?style=flat" />
   &nbsp;
-  <a href="https://github.com/kazah-png/nyx-os"><img src="https://img.shields.io/badge/family-NyxOS-800080?style=flat" /></a>
+  <a href="https://github.com/nyxos-dev/nyx-os"><img src="https://img.shields.io/badge/family-NyxOS-800080?style=flat" /></a>
 </p>
 
 ---
 
 ## About
 
-Part of the **[NyxOS](https://github.com/kazah-png/nyx-os) family** — the same OS, rebuilt from zero in a different language each time. This is the **x86 assembly** cut: a Multiboot1 kernel written in pure NASM that GRUB (or `qemu -kernel`) loads in 32-bit protected mode. It sets up its own stack and paints a banner straight into VGA text memory at `0xB8000`. No C, no libc — nothing between the code and the CPU.
+Part of the **[NyxOS](https://github.com/nyxos-dev/nyx-os) family** — the same OS, rebuilt from zero in a different language each time. This is the **x86 assembly** cut: a Multiboot1 kernel written in pure NASM that GRUB (or `qemu -kernel`) loads in 32-bit protected mode. It sets up its own stack and paints a banner straight into VGA text memory at `0xB8000`. No C, no libc — nothing between the code and the CPU.
 
 <div align="center">
   <img src="screenshot.png" alt="NyxOS-Asm booting in QEMU" width="640" />
